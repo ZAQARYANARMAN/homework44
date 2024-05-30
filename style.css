@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  width: 100%;
+  background-color: #00978F;
+  padding: 15px 0;
+}
+.top .filterInformation {
+  width: 150px;
+  padding: 5px 1px;
+}
+
+.container {
+  display: flex;
+  background-color: #32B18E;
+  width: 100%;
+  height: calc(100vh - 59.2px);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.container .informationDiv {
+  background-color: #68C985;
+  width: 23.7%;
+  height: max-content;
+}
+.container .informationDiv .infoYear {
+  text-align: center;
+  color: #2F4858;
+  font-size: 19px;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #2F4858;
+}
+.container .informationDiv .nationText, .container .informationDiv .populationText {
+  font-size: 17px;
+  color: #2F4858;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #2F4858;
+}
+
+/*# sourceMappingURL=style.css.map */

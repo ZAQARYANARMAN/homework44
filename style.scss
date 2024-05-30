@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$backroundColor: #32B18E;
+$containerColor: #68C985;
+$textColor: #2F4858;
+
+.top {
+    width: 100%;
+    background-color: #00978F;
+    padding: 15px 0;
+
+
+    .filterInformation {
+        width: 150px;
+        padding: 5px 1px;
+    }
+}
+
+
+.container {
+    display: flex;
+    background-color: $backroundColor;
+    width: 100%;
+    height: calc(100vh - 59.2px);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 26px;
+
+
+    .informationDiv {
+        background-color: $containerColor;
+        width: calc(79% / 3.333333333333333);
+        height: max-content;
+    
+    
+        .infoYear {
+            text-align: center;
+            color: $textColor;
+            font-size: 19px;
+            width: 100%;
+            padding: 10px 0;
+            border: 1px solid $textColor;
+        }
+
+        .nationText, .populationText {
+            font-size: 17px;
+            color: $textColor;
+            width: 100%;
+            padding: 10px 0;
+            border: 1px solid $textColor;
+        }
+    }
+}
